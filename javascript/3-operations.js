@@ -33,7 +33,7 @@ let modulo = a % b;
 console.log(modulo) // 0
 
 
-// Exponentiation (power operator) when we try to find the power of any operator like 2 power 3 ( 2*2*2) then we can use the exponention opertator
+// Exponentiation (power operator) when we try to find the power of any operator like 2 power 3 ( 2*2*2) then we can use the exponention opertator.
 
 let exponention = 2**3;
 console.log(exponention); // 8
