@@ -32,7 +32,8 @@ var courseprice = null;
 console.log(typeof courseprice) // null;
 
 var number = BigInt(23243463463434343);
-console.log(typeof number) // bigint
+console.log(typeof number) // bigint dataype
+
 
 
 
