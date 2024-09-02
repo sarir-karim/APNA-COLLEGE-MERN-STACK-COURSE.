@@ -20,6 +20,6 @@ console.log(add)// NaN;
 let multiply  = nan*1;
 console.log(multiply) // NaN
 let subtract = NaN -4;
-console.log(subtract) // NaN;
+console.log(subtract) // NaN
 
 // whatever operation we try to perform with NaN is always NaN;
