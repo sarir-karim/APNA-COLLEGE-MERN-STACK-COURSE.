@@ -31,3 +31,24 @@ console.log(avg)
 
 
 
+/***********************************************
+ *  PRACTICE QUESION ABUT UNARY OPERATOR
+ * 
+ *  here are parctice question for unary operator.
+/**
+ * What is the value of each variable in each line of code?
+ * let num = 5;  value is 5;
+ * let newNum = num++ value = 6
+ * newNum = ++num; value = 7
+ */
+
+let num = 5;
+console.log(num); // 5
+let newNum =  num++;
+console.log(newNum) // 5
+newNum = ++num;
+console.log(newNum) // 7
+ 
+
+
+
