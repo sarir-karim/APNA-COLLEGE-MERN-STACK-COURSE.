@@ -51,4 +51,28 @@ console.log(newNum) // 7
  
 
 
+// Practice Questions of Identifiers
 
+/**
+ * 1: Find errors in the following code?
+ * a)
+ * 1:let 1age = 5;
+ * 2:let 2age = 10;
+ * 
+ * b)
+ *  1:let marks = 75;
+ *  2:let isPass = True;
+ * c) 
+ *   1: let is Pass = "true"
+ * 
+ */
+
+
+// Solutions
+
+let age1 = 5;
+let age2 = 10;
+
+let marks  = 75 // is correct 
+let isPass = true; //T must b in small letters
+let isPass2 = true; // true must not be inside "quotes"
