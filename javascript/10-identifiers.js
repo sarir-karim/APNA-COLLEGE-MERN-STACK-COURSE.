@@ -1,0 +1,1 @@
+// Identifier in JavaScript
