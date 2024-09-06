@@ -92,24 +92,125 @@ let isPass2 = true; // true must not be inside "quotes"
 
 //1
 let myName = "sarir karim";
-console.log(myName.length) // 11- we have used the length property to show the length of my name;
+// console.log(myName.length) // 11- we have used the length property to show the length of my name;
 
 //2
 let firstName = "sarir";
-console.log(firstName[0]) // s- we have used the string index to show the first character of my first name
+// console.log(firstName[0]) // s- we have used the string index to show the first character of my first name
 
 //3
 let lastName = "karim";
-console.log(lastName[4]); //m because we have  subtract one from the lenth so it showed the last string from right to left
+// console.log(lastName[4]); //m because we have  subtract one from the lenth so it showed the last string from right to left
 
 //4
 let apnacollge = "apnacollege"+123;
-console.log(apnacollge); // apnacollge123 // because string uses contactination of add strings together
+// console.log(apnacollge); // apnacollge123 // because string uses contactination of add strings together
 
 //5 
 let str = ''
-console.log(str.length) // index of empty string will be zero because it's initial index it set as 0
+// console.log(str.length) // index of empty string will be zero because it's initial index it set as 0
 
 let spStr = ' ';
-console.log(spStr.length); // index of a spaced string is 1 because it has one space 
+// console.log(spStr.length); // index of a spaced string is 1 because it has one space 
 
+
+// Practice Questions
+
+/*
+Create a number varible num with some value; Now print "good" if the number is divisible by 10 and print bad if it is not.
+*/ 
+
+let number = 10;
+
+if(number % 10 === 0){
+    console.log("Good")
+}else{
+    console.log("Bad")
+}
+
+
+// Take the user's name & age as input using prompt then return back the following statment to the user (by substituting their name and age) use tempate literls to print the message
+
+
+// let name = prompt("Enter your full name");
+// let fullAge = prompt("Enter you rage");
+
+// let result = `${name} is ${fullAge} years old.`;
+// alert(result)
+
+
+/*
+write a switch statment to print the months in a quarter
+month in quarter 1: January febuary march
+month in quarter 2: april may june
+month in quarter 3: july august , sep,
+month in quarter 4: oct, nov, dec
+*/
+
+
+let month = 1;
+
+switch(month){
+    case 1:
+        console.log("January febuary march");
+        break;
+    case 2:
+        console.log("april may june");
+        break;
+    case 3:
+        console.log("july august, sep,");
+        break;
+    case 4:
+        console.log("oct, nov, dec");
+        break;
+    default:
+        console.log("Wrong choice")
+}
+
+/*
+a string is golden string if it starts with the character 'a' or 'A' and has a total lenth of 5; for a given string if it's gold or not
+*/ 
+
+let string  = "apple";
+if((string[0] === 'a' || 'A') && (string.length >=5)){
+    console.log("Golden String");
+}else {
+    console.log("Bad String")
+}
+
+//write a program to find the largest of 3 numbers
+
+let num1 = 10;
+let num2 = 40;
+let num3 = 60;
+
+if(num1> num2){
+    if(num1 > num3){
+        console.log(num1, "is greater")
+    }else{
+        console.log(num3, "is greater")
+    }
+}else{
+    if(num2 > num1){
+        if(num2 > num3){
+            console.log(num2, "is greater");
+        }else{
+            console.log(num3, "is greater")
+        }
+    }
+}
+
+
+// check if two number have same last digit
+
+let x = 12;
+let y =  12322;
+
+let lstDgt1 = x % 10;
+let lstDgt2  = y % 10;
+
+if(lstDgt1 === lstDgt2){
+    console.log("Both have same last digit")
+}else{
+    console.log("both have different last digits")
+}
