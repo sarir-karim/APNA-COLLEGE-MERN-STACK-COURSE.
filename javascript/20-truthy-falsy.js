@@ -4,6 +4,7 @@
 // falsy values (false, 0 -0, on(Bitint value), "", null, undefined, NaN)
 //truthy values Everything else
 
+
 //examples
 if(true){
     console.log("This is ture") //true
