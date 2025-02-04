@@ -17,7 +17,7 @@
 
 let age = 23;
 age +2; 
-console.log(age) // 23; the result will remain the same becuse we are just adding 2 to the value 23 not assigning the calculated value to the age that's why the value of age remains the same;
+// console.log(age) // 23; the result will remain the same becuse we are just adding 2 to the value 23 not assigning the calculated value to the age that's why the value of age remains the same;
 
 // answer to 2nd  question.
 
@@ -25,7 +25,7 @@ let hindi = 80;
 let english = 90;
 let math  = 100;
 let avg = (hindi + english + math) / 3  //(80+90+100)/3   = 270/3 = 90;
-console.log(avg)
+// console.log(avg)
 
 // so the average will be 90;
 
@@ -43,11 +43,11 @@ console.log(avg)
  */
 
 let num = 5;
-console.log(num); // 5
+// console.log(num); // 5
 let newNum =  num++;
-console.log(newNum) // 5
+// console.log(newNum) // 5
 newNum = ++num;
-console.log(newNum) // 7
+// console.log(newNum) // 7
  
 
 
@@ -123,9 +123,9 @@ Create a number varible num with some value; Now print "good" if the number is d
 let number = 10;
 
 if(number % 10 === 0){
-    console.log("Good")
+    // console.log("Good")
 }else{
-    console.log("Bad")
+    // console.log("Bad")
 }
 
 
@@ -171,12 +171,12 @@ switch(month){
 a string is golden string if it starts with the character 'a' or 'A' and has a total lenth of 5; for a given string if it's gold or not
 */ 
 
-let string  = "apple";
-if((string[0] === 'a' || 'A') && (string.length >=5)){
-    console.log("Golden String");
-}else {
-    console.log("Bad String")
-}
+// let string  = "apple";
+// if((string[0] === 'a' || 'A') && (string.length >=5)){
+//     console.log("Golden String");
+// }else {
+//     console.log("Bad String")
+// }
 
 //write a program to find the largest of 3 numbers
 
@@ -210,7 +210,34 @@ let lstDgt1 = x % 10;
 let lstDgt2  = y % 10;
 
 if(lstDgt1 === lstDgt2){
-    console.log("Both have same last digit")
+    // console.log("Both have same last digit")
 }else{
-    console.log("both have different last digits")
+    // console.log("both have different last digits")
 }
+
+//practice questions related string methods
+
+/*for the given string.
+ let msg = "help1"
+Trim and convert it to uppercase;
+
+QS; for the string -> let name  = "ApnaCollege", predict output of the following
+
+name.slice(4, 9); //aColle
+name.indexOf("na"); //2
+name.replce("Apna","Our"); OurCollege
+
+Sepreate the "College" part in the above string and replace 'I' with 't' in it.
+*/
+
+//anwer to first question.
+
+let msg = "help!";
+
+let msgResult = msg.trim().toUpperCase();
+// console.log(msgResult);
+
+let message = "apnaCollege";
+
+let editMessage = message.slice(4).replace("l", "t");
+console.log(editMessage);
