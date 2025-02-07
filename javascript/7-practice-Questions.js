@@ -239,5 +239,22 @@ let msgResult = msg.trim().toUpperCase();
 
 let message = "apnaCollege";
 
-let editMessage = message.slice(4).replace("l", "t");
-console.log(editMessage);
+// let editMessage = message.slice(4).replace("l", "t");
+// console.log(editMessage);
+
+
+/**
+ * Practice Questions realted Arrays
+ * 
+ * For the start state of an array, change it to final form using methods,
+ * start: ['january', 'july', 'march', 'august'];
+ * final: ['july', 'june', 'march', august']
+ */
+
+
+let months = ['january', 'july','march', 'august'];
+months.shift();
+months.shift();
+months.unshift("june");
+months.unshift("july");
+console.log(months)
