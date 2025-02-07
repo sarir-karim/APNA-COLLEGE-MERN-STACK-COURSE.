@@ -48,12 +48,27 @@ let newFollower = followers.push('d');
 // console.log(newFollower);
 // console.log(followers.pop());
 
-let title = followers.unshift("Followers: ");
+// let title = followers.unshift("Followers: ");
 
-console.log(title);
+// console.log(title);
 
-let blockPerson = followers.shift();
+// let blockPerson = followers.shift();
 
-console.log(blockPerson)
+// console.log(blockPerson);
 
+//array indexOf and includes method.
+
+const colors  = ["Yellow", "green", "blue", "red"];
+// console.log(indexOf("Yellow"));
+console.log(colors.includes("Yellow"))
+
+//ARRAY CONCAT AND REVERSE METHODS
+//CONCATE METHOD CONTACTS OR MERGS TWO ARRAY ELEMENTS TOGETHER.
+//REVERSE METHOD REVERSE THE ARRAY ELEMENT(!- IT CHANGES THE ORIGINAL ARRAY);
+
+const schools = ["school1", "school2", "school3"];
+const colleges = ["colg1", "colg2", "colg3"];
+
+console.log(schools.concat(colleges));
+console.log(schools.reverse())
 
