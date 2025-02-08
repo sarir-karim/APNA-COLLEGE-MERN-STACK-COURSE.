@@ -70,5 +70,21 @@ const schools = ["school1", "school2", "school3"];
 const colleges = ["colg1", "colg2", "colg3"];
 
 console.log(schools.concat(colleges));
-console.log(schools.reverse())
+console.log(schools.reverse());
 
+//SLICE METHOD IN ARRAY
+
+const country = ["pak", "ind", "sa", "aus"];
+console.log(country.slice())// it will slice out all the countries;
+console.log(country.slice(2));
+console.log(country.slice(1,3))
+console.log(country.slice(-3))
+
+
+//splace Method
+//splice methods tooks three arguments one is the starting index second is the how many items you delete and the third you want to add items.
+const cities = ["gilgit", "isb", "karachi", "lahore"];
+
+console.log(cities.splice(2, 0,"hunza", "gojal"));
+
+console.log(cities)
