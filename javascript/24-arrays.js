@@ -42,7 +42,7 @@ console.log(books)
 
 let followers = ['a', 'b', 'c'];
 
-let newFollower = followers.push('d');
+// let newFollower = followers.push('d');
 
 // console.log(followers);
 // console.log(newFollower);
@@ -60,7 +60,7 @@ let newFollower = followers.push('d');
 
 const colors  = ["Yellow", "green", "blue", "red"];
 // console.log(indexOf("Yellow"));
-console.log(colors.includes("Yellow"))
+// console.log(colors.includes("Yellow"))
 
 //ARRAY CONCAT AND REVERSE METHODS
 //CONCATE METHOD CONTACTS OR MERGS TWO ARRAY ELEMENTS TOGETHER.
@@ -69,25 +69,25 @@ console.log(colors.includes("Yellow"))
 const schools = ["school1", "school2", "school3"];
 const colleges = ["colg1", "colg2", "colg3"];
 
-console.log(schools.concat(colleges));
-console.log(schools.reverse());
+// console.log(schools.concat(colleges));
+// console.log(schools.reverse());
 
 //SLICE METHOD IN ARRAY
 
 const country = ["pak", "ind", "sa", "aus"];
-console.log(country.slice())// it will slice out all the countries;
-console.log(country.slice(2));
-console.log(country.slice(1,3))
-console.log(country.slice(-3))
+// console.log(country.slice())// it will slice out all the countries;
+// console.log(country.slice(2));
+// console.log(country.slice(1,3))
+// console.log(country.slice(-3))
 
 
 //splace Method
 //splice methods tooks three arguments one is the starting index second is the how many items you delete and the third you want to add items.
 const cities = ["gilgit", "isb", "karachi", "lahore"];
 
-console.log(cities.splice(2, 0,"hunza", "gojal"));
+// console.log(cities.splice(2, 0,"hunza", "gojal"));
 
-console.log(cities)
+// console.log(cities)
 
 
 //Sort method
@@ -95,10 +95,25 @@ console.log(cities)
 //example
 
 const cars = [ "maruti", "mehran","bmw"];
-console.log(cars.sort());
+// console.log(cars.sort());
 
 //sort method works fine for characters or words but it doesn't work same for numbers.
 
 const ages = [10, 55, 29, 199];
 
-console.log(ages.sort());
+// console.log(ages.sort());
+
+
+/**
+ * ARRAY REFERENCES
+ * ARRAY REFERENCES MEANS THAT WE ARE TAKING ABOUT NOT THE ARRAY VALUES BUT THE ADDRESS THAT ARRAY IS ASSIGED.
+ */
+
+console.log('a' == 'a'); // true
+console.log("" == ""); // true;
+console.log([]== []); // false; because the values are not compared that address in the memory is compared.
+console.log([1] == [1]); // false;
+let arr1 = [10];
+let arr1Copy = arr1;
+
+console.log(arr1 === arr1Copy); //true; becasue the both array has same address; because both are using initilization method 
