@@ -117,3 +117,32 @@ let arr1 = [10];
 let arr1Copy = arr1;
 
 console.log(arr1 === arr1Copy); //true; becasue the both array has same address; because both are using initilization method 
+
+///Array contastat
+// when we use const keywork with array it becomes constat while we can change the values add or remove values using methods but can't completely chnage the array;
+
+const city = ["karachi", 'lahore', "isb"];
+
+// console.log(city.pop());
+// console.log(city.push("gilgit"));
+// console.log(city = ["hunza", "nagar"]);
+
+//neste arrays 
+// when we have arrays inside ararys they are called nested arrays
+
+let multiArrays = [[1,3], [2, 4], [5,6]];
+// the above arrys will be represented in the form of rows and columns
+// not we have three rows and two columns;
+
+console.log(multiArrays[0])// this will print the frist array inside the multi array;
+console.log(multiArrays);// this will print the whole array;
+
+// now if we want to access the elements in each array;
+
+console.log(multiArrays[0][0]) // this will give us the first item stored in the first array
+console.log(multiArrays[0][1])
+console.log(multiArrays[1][0])
+console.log(multiArrays[1][1])
+console.log(multiArrays[2][0])
+console.log(multiArrays[2][1])
+// now we have accessed all the array elements using the rows and columns using indices
