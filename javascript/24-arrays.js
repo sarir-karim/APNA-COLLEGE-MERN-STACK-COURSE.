@@ -88,3 +88,17 @@ const cities = ["gilgit", "isb", "karachi", "lahore"];
 console.log(cities.splice(2, 0,"hunza", "gojal"));
 
 console.log(cities)
+
+
+//Sort method
+//SORT method is used to convert the strings in assending order or decending order.
+//example
+
+const cars = [ "maruti", "mehran","bmw"];
+console.log(cars.sort());
+
+//sort method works fine for characters or words but it doesn't work same for numbers.
+
+const ages = [10, 55, 29, 199];
+
+console.log(ages.sort());

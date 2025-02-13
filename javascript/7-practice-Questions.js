@@ -259,4 +259,16 @@ months.unshift("june");
 months.unshift("july");
 console.log(months)
 
+/*
+Practice question realted to array methods
 
+start: ['january', 'july', 'march', 'august']
+final: ['july', 'june', 'march', august']
+*/ 
+
+const start = ['january', 'july', 'march', 'august'];
+console.log( start.splice(1 ,2,'july', "june"));
+
+
+const lang = ['c', "C++", "go", "python", "javascript", "sql"];
+console.log(lang.reverse().indexOf('javascript'));
