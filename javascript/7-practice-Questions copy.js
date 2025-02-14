@@ -278,75 +278,7 @@ console.log(lang.reverse().indexOf('javascript'));
 //Question: create a nested array to show the following tic-tac-toe game state;
 
 
-const tictactoe = [['x', '0', '0'], ['0', 'x', '0'], ['0', '0' ,'x']];
+const tictactoe = [['x', '0', '0'], ['null', 'x', null], ['0', null ,'x']];
 console.log(tictactoe[0])
 console.log(tictactoe[1])
 console.log(tictactoe[2])
-
-
-
-//write a javascript program to get the first n elements of an array. [n can be any positive number].
-//for example: for array [7,9,0,-2] and n=3
-// print, [9,0,0];
-
-let array = [7,9,0,-2];
-let n = 3;
-let ans = array.slice(0, n);
-
-console.log(ans)
-
-/**
- * Qs2. Write a JavaScript program to get the last n elements of an array. [n can be any
-positive number].
-For example: for array [7, 9, 0, -2] and n=3
-Print, [9, 0, -2]
- */
-
-let pArray = [7, 9, 0, -2];
-let pn = 3;
-const pans = pArray.slice(pArray.length-pn);
-console.log(pans)
-
-let string = "";
-
-if(string.length == 0){
-    console.log("String is empty");
-}else{
-    console.log("String is not empty")
-}
-
-/**
- * Write a JavaScript program to test whether the character at the given (character)
-index is lower case.
- */
-
-let character = "WORLD";
-let cindex = 3;
-
-if(character[cindex] === character[cindex].toLowerCase()){
-    console.log("Character is in lowercase");
-}else{
-    console.log("character is uppercase");
-}
-
-
-/*
-Write a JavaScript program to strip leading and trailing spaces from a string.
-*/ 
-
-let trimString = " He l l o w o r l d!    ";
-
-console.log(`original string: ${trimString}`)
-console.log(`original string: ${trimString.trim()}`)
-
-
-// Write a JavaScript program to check if an element exists in an array or not.
-
-let existArray = [1,2,23,55,'a', 66];
-let element = 1;
-
-if(existArray.indexOf(element) !=-1){
-    console.log('element exist in the array')
-}else{
-    console.log("elemnt doesn't exist in the array");
-};
