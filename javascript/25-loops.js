@@ -45,3 +45,24 @@ for (let i = 10; i >=1; i = i-2){
 // for( let i = 0; ; i++){
 //     console.log(i)
 // }
+
+
+for( let i = 0; i<=50; i = i+5){
+    console.log(i)
+}
+
+
+// let number = 5;
+
+// for (let i = number; i < number*10; i = i+number){
+//     console.log(i)
+// }
+
+/// nested loopss
+
+// for( let i = 0; i<=3; i++){
+//     console.log(`outer loop ${i}`)
+//     for(let j = 0; j<=3; j++){
+//         console.log(j)
+//     }
+// }
